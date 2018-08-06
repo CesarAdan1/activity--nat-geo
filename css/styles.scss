@@ -1,0 +1,48 @@
+// Marco Antonio Sandoval Espinosa
+$yellow-color: #fecd2f;
+$dark-gray-color: #333333;
+$light-gray-color: #aaaaaa;
+$title-fonts: 'Gill Sans', 'Century Gothic', Sans-serif;
+$fancy-fonts: 'Georgia', 'Palatino', serif;
+
+// @import "mediaq.scss";
+@import "head.scss";
+@import "content.scss";
+@import "foot.scss";
+
+*{
+  box-sizing: border-box;
+  // outline: 1px red solid;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+
+// media for tablet ( 768px - 1023px )
+@media screen and (min-width: 768px){
+  .natgeo{
+
+  }
+  *{
+    color: red;
+  }
+}
+
+
+// media for desktop (>1024px)
+@media screen and (min-width: 1024px){
+  .natgeo{
+
+      &__menu-list{
+        display:block;
+      }
+
+  }
+
+  *{
+    color: green;
+  }
+}

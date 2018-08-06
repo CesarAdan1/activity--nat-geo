@@ -1,0 +1,123 @@
+.natgeo__header {
+  height: 80px;
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 1px #CCC solid; }
+
+.natgeo__menu-list {
+  display: none; }
+
+.natgeo__header-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px; }
+
+.fa-bars {
+  font-size: 30px;
+  padding: 10px; }
+
+.natgeo__title {
+  font-family: "Georgia", "Palatino", serif;
+  text-transform: uppercase;
+  letter-spacing: 10px; }
+
+.natgeo__subtitle {
+  font-family: "Georgia", "Palatino", serif;
+  text-transform: uppercase;
+  letter-spacing: 3px; }
+
+.natgeo__sub-subtitle {
+  font-weight: bold;
+  font-family: "Georgia", "Palatino", serif; }
+
+.natgeo__link {
+  color: #000;
+  font-family: monospace;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-bottom: 2px #fecd2f solid; }
+
+.natgeo__text-block {
+  font-family: "Gill Sans", "Century Gothic", Sans-serif;
+  font-size: 14px;
+  padding-left: 10px;
+  border-left: 1px #CCC solid; }
+
+.natgeo__main-img {
+  padding-top: 20px;
+  width: 100%; }
+
+.natgeo__container {
+  width: 350px;
+  margin: 100px auto; }
+
+.natgeo__item {
+  width: 350px; }
+
+.natgeo__button {
+  text-transform: uppercase;
+  border: 2px #333333 solid;
+  width: 100%;
+  background-color: #fecd2f;
+  padding: 5px 0; }
+
+.natgeo__footer {
+  color: #FFF;
+  background-color: #333333; }
+
+.natgeo__footer-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.natgeo__sub-footer {
+  color: #000;
+  background-color: #dddddd; }
+
+.natgeo__footer-text {
+  text-align: center; }
+
+.natgeo__icon-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row; }
+
+.natgeo__footer-title {
+  text-transform: uppercase; }
+
+.natgeo__footer {
+  margin: 0 auto; }
+
+.fa-twitter {
+  color: #1da1f2;
+  padding: 5px;
+  font-size: 30px; }
+
+.fa-facebook {
+  color: #425499;
+  padding: 5px;
+  font-size: 30px; }
+
+.fa-instagram {
+  color: #577da5;
+  padding: 5px;
+  font-size: 30px; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+@media screen and (min-width: 768px) {
+  * {
+    color: red; } }
+
+@media screen and (min-width: 1024px) {
+  .natgeo__menu-list {
+    display: block; }
+  * {
+    color: green; } }

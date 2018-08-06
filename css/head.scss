@@ -1,0 +1,26 @@
+.natgeo{
+  &__header{
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px #CCC solid;
+  }
+
+  &__menu-list{
+    display: none;
+  }
+
+  &__header-img{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 200px;
+  }
+
+
+}
+
+.fa-bars{
+  font-size: 30px;
+  padding: 10px;
+}
